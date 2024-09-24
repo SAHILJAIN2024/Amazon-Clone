@@ -1,0 +1,241 @@
+*{
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.navbar{
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.navlogo{
+    width: 100px;
+    height: 50;
+}
+.logo {
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.navaddress{
+    font-size: 9px;
+    font-weight: 300;
+
+}
+
+
+.first{
+    font-size: 7px;
+    color: grey;
+    margin-left: 15px;
+
+}
+.second{
+    margin-left: 3px;
+}
+.adressicon{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.navsearch{
+    display: flex;
+    background-color: rgb(244, 197, 46);
+    width: 620px;
+    height: 40px;
+    justify-content: space-evenly;
+
+}
+.searchselect{
+    background-color: aliceblue;
+    width: 50px;
+    text-align: center;
+    border: none;
+} 
+.searchinput{
+    width: 100%;
+    border: none;
+
+}
+.searchicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 75;
+}
+
+span{
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+}
+.secon {
+    font-size: 0.85rem;
+
+}
+.cart i {
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+}
+
+/** Panel*/
+.panel{
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center; 
+    color: white;
+
+}
+.paneloption p {
+    display: inline;
+    margin-left: 10px;
+}
+.paneloption{
+    
+    width: 80%;
+    font-size: 0.85rem;
+    margin-inline-start: 10px;
+}
+
+
+/** HEROSECTION**/
+.herosection{
+    background-image: url(hero_image.jpg);
+    height: 400px;
+    background-size: cover;
+
+}
+/** shopsection**/
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    margin-top: 15px;
+}
+.shopsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.IM1{
+    background-image: url(box1_image.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box h2{
+    text-align: center;
+}
+.IM2{
+    background-image: url(box2_image.jpg);
+    background-size: cover;
+    height: 270px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.IM3{
+    background-image: url(box3_image.jpg);
+    height: 300px;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.IM4{
+    background-image: url(box4_image.jpg);
+    height: 300px;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.IM5{
+    background-image: url(box5_image.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.IM6{
+    background-image: url(box6_image.jpg);
+    background-size: cover;
+    height: 270px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.IM7{
+    background-image: url(box7_image.jpg);
+    height: 300px;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.IM8{
+    background-image: url(box8_image.jpg);
+    height: 300px;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.PANEL1{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    margin-top: 10px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.panel2{
+    background-color: #37475a;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+ul a {
+    display: block;
+}
+.panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: solid 0.5px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.logo {
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+.panel4{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
